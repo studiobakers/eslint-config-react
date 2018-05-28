@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-hipo-react",
+  "version": "0.1.0",
+  "description": "Hipo's shareable ESLint configuations for REACT & JSX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hipo/eslint-config-hipo-react.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint",
+    "react",
+    "hipo"
+  ],
+  "author": "Hipo Web Team",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Hipo/eslint-config-hipo-react/issues"
+  },
+  "homepage": "https://github.com/Hipo/eslint-config-hipo-react#readme",
+  "peerDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.8.2"
+  }
+}
