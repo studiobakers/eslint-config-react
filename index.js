@@ -140,6 +140,7 @@ module.exports = {
         "order": [
           "type-annotations",
           "static-methods",
+          "instance-variables",
           "lifecycle",
           "everything-else",
           "rendering"
