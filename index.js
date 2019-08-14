@@ -6,10 +6,7 @@ module.exports = {
         "allowRequiredDefaults": true
       }
     ],
-    "react/destructuring-assignment": [
-      "error",
-      "always"
-    ],
+    "react/destructuring-assignment": ["never"],
     "react/forbid-component-props": [
       "error",
       {
@@ -138,8 +135,10 @@ module.exports = {
       "error",
       {
         "order": [
-          "type-annotations",
           "static-methods",
+          "instance-variables",
+          "getters",
+          "setters",
           "lifecycle",
           "everything-else",
           "rendering"
@@ -201,7 +200,8 @@ module.exports = {
       "error",
       {
         "extensions": [
-          ".jsx"
+          ".jsx",
+          ".tsx"
         ]
       }
     ],
