@@ -194,12 +194,9 @@ module.exports = {
       "never"
     ],
     "react/jsx-filename-extension": [
-      "error",
+      1,
       {
-        "extensions": [
-          ".jsx",
-          ".tsx"
-        ]
+        "extensions": [".jsx", ".tsx"]
       }
     ],
     "react/jsx-first-prop-new-line": [
