@@ -135,21 +135,19 @@ module.exports = {
       }
     ],
     "react/sort-comp": [
-      "error",
+      2,
       {
         "order": [
-          "type-annotations",
           "static-methods",
           "instance-variables",
+          "getters",
+          "setters",
           "lifecycle",
           "everything-else",
           "rendering"
         ],
         "groups": {
-          "rendering": [
-            "/^render.+$/",
-            "render"
-          ]
+          "rendering": ["render", "/^render.+$/"]
         }
       }
     ],
