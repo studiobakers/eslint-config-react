@@ -1,11 +1,9 @@
-# eslint-config-hipo-react
+# @hipo/eslint-config-react
 
-Hipo's shareable ESLint configuations for REACT & JSX
+Hipo's shareable ESLint configuations for REACT & JSX.
 
-##### Usage: 
+##### Installation:
 
 ```javascript
-{
-  "extends": "eslint-config-hipo-react"
-}
+npm i --save-dev @hipo/eslint-config-react
 ```
