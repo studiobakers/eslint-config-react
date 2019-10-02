@@ -26,11 +26,16 @@ module.exports = {
     "react/no-danger-with-children": "error",
     "react/no-deprecated": "warn",
     "react/no-did-mount-set-state": "error",
-    "react/no-did-update-set-state": "error",
     "react/no-direct-mutation-state": "error",
     "react/no-find-dom-node": "error",
     "react/no-is-mounted": "error",
     "react/no-multi-comp": "error",
+    "react/no-multi-comp": [
+      "error",
+      {
+        "ignoreStateless": true
+      }
+    ],
     "react/no-redundant-should-component-update": "error",
     "react/no-render-return-value": "error",
     "react/no-set-state": "off",
@@ -47,7 +52,6 @@ module.exports = {
     "react/prop-types": "error",
     "react/react-in-jsx-scope": "error",
     "react/require-default-props": "off",
-    "react/require-optimization": "error",
     "react/require-render-return": "error",
     "react/self-closing-comp": [
       "error",
