@@ -6,7 +6,6 @@ module.exports = {
         "allowRequiredDefaults": false
       }
     ],
-    "react/destructuring-assignment": ["warn", "always"],
     "react/forbid-component-props": "off",
     "react/forbid-dom-props": "off",
     "react/forbid-elements": "off",
