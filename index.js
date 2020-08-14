@@ -115,13 +115,6 @@ module.exports = {
       }
     ],
     "react/jsx-first-prop-new-line": ["error", "never"],
-    "react/jsx-handler-names": [
-      "error",
-      {
-        "eventHandlerPrefix": "handle",
-        "eventHandlerPropPrefix": "on"
-      }
-    ],
     "react/jsx-indent": ["error", 2],
     "react/jsx-indent-props": "off",
     "react/jsx-key": "error",
