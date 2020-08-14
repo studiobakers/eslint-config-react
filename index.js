@@ -148,7 +148,7 @@ module.exports = {
       "error",
       {
         "props": "always",
-        "children": "ignore"
+        "children": "always"
       }
     ],
     "react/jsx-sort-props": [
