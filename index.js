@@ -6,7 +6,6 @@ module.exports = {
         "allowRequiredDefaults": false
       }
     ],
-    "react/destructuring-assignment": ["warn", "always"],
     "react/forbid-component-props": "off",
     "react/forbid-dom-props": "off",
     "react/forbid-elements": "off",
@@ -20,7 +19,7 @@ module.exports = {
     ],
     "react/forbid-foreign-prop-types": "error",
     "react/no-access-state-in-setstate": "error",
-    "react/no-array-index-key": "error",
+    "react/no-array-index-key": "warn",
     "react/no-children-prop": "error",
     "react/no-danger": "error",
     "react/no-danger-with-children": "error",
@@ -29,7 +28,6 @@ module.exports = {
     "react/no-direct-mutation-state": "error",
     "react/no-find-dom-node": "error",
     "react/no-is-mounted": "error",
-    "react/no-multi-comp": "error",
     "react/no-multi-comp": [
       "error",
       {
@@ -49,7 +47,6 @@ module.exports = {
     "react/no-will-update-set-state": "error",
     "react/prefer-es6-class": ["error", "always"],
     "react/prefer-stateless-function": "off",
-    "react/prop-types": "error",
     "react/react-in-jsx-scope": "error",
     "react/require-default-props": "off",
     "react/require-render-return": "error",
@@ -111,19 +108,12 @@ module.exports = {
     ],
     "react/jsx-equals-spacing": ["error", "never"],
     "react/jsx-filename-extension": [
-      "error",
+      "warn",
       {
-        "extensions": [".jsx", ".tsx"]
+        extensions: [".jsx", ".tsx"]
       }
     ],
     "react/jsx-first-prop-new-line": ["error", "never"],
-    "react/jsx-handler-names": [
-      "error",
-      {
-        "eventHandlerPrefix": "handle",
-        "eventHandlerPropPrefix": "on"
-      }
-    ],
     "react/jsx-indent": ["error", 2],
     "react/jsx-indent-props": "off",
     "react/jsx-key": "error",
@@ -158,7 +148,7 @@ module.exports = {
       "error",
       {
         "props": "always",
-        "children": "ignore"
+        "children": "always"
       }
     ],
     "react/jsx-sort-props": [
