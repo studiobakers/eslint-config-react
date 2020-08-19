@@ -188,6 +188,9 @@ module.exports = {
         "logical": "ignore",
         "prop": "parens-new-line"
       }
-    ]
+    ],
+    // eslint-plugin-react-hooks related rules
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
   }
 };
