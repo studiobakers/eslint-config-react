@@ -1,6 +1,6 @@
 {
   "name": "@hipo/eslint-config-react",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Hipo's shareable ESLint configuations for REACT & JSX",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/Hipo/eslint-config-hipo-react#readme",
   "peerDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-plugin-react": "^7.23.1",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint": "^8.6.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }
