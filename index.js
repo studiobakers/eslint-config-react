@@ -47,7 +47,7 @@ module.exports = {
     "react/no-will-update-set-state": "error",
     "react/prefer-es6-class": ["error", "always"],
     "react/prefer-stateless-function": "off",
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/require-render-return": "error",
     "react/self-closing-comp": [
@@ -175,7 +175,7 @@ module.exports = {
       }
     ],
     "react/jsx-sort-default-props": "off",
-    "react/jsx-uses-react": "error",
+    "react/jsx-uses-react": "off",
     "react/jsx-uses-vars": "error",
     "react/jsx-wrap-multilines": [
       "error",
