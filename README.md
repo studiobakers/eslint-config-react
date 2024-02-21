@@ -1,6 +1,6 @@
 # @hipo/eslint-config-react
 
-Hipo's shareable ESLint configuations for REACT & JSX.
+Baker's shareable ESLint configuations for REACT & JSX.
 
 ## Installation
 
