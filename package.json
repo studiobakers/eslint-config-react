@@ -1,27 +1,29 @@
 {
   "name": "@hipo/eslint-config-react",
-  "version": "2.3.0",
-  "description": "Hipo's shareable ESLint configuations for REACT & JSX",
+  "version": "2.3.1",
+  "description": "Baker's shareable ESLint configuations for REACT & JSX",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hipo/eslint-config-hipo-react.git"
+    "url": "git+https://github.com/studiobakers/eslint-config-react"
   },
   "keywords": [
     "eslintconfig",
     "eslint",
     "react",
-    "hipo"
+    "hipo",
+    "studiobakers",
+    "bakers"
   ],
   "author": "Hipo Web Team",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/Hipo/eslint-config-hipo-react/issues"
+    "url": "https://github.com/studiobakers/eslint-config-react/issues"
   },
-  "homepage": "https://github.com/Hipo/eslint-config-hipo-react#readme",
+  "homepage": "https://github.com/studiobakers/eslint-config-react/blob/master/README.md",
   "peerDependencies": {
     "eslint": "^8.6.0",
     "eslint-plugin-react": "^7.28.0",
